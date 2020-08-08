@@ -248,7 +248,7 @@ def get_images_and_labels(path):
 		image = np.array(image_pil, 'uint8')
         # Get the label of the image
 		FullName = os.path.split(image_path)[1].split(".")[0].replace("face-", "").upper()
-		# Detect the face in the image
+		
 		if(firstTime):
 			getN=Shortner(FullName)
 			firstTime=False
