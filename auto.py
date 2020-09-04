@@ -660,5 +660,4 @@ recgButton.bind("<Button-1>", startDetector)
 button2 = Button(adminFrame, text="Exit",bg="gray",font=("times new roman", 14),fg="white")
 button2.grid(row=3,column=3,sticky=W)
 button2.bind("<Button-1>", close_windown)
-
 mainloop()
